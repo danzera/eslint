@@ -1,0 +1,17 @@
+{
+  "extends": ["eslint:recommended", "plugin:angular/johnpapa"],
+  "env": { // indicates environment(s) where the code will be used
+    "browser": true,
+    "node": true
+  },
+  "globals": { // global variables your script accesses during execution
+    "angular": true
+  },
+  "rules": { 
+    "no-unused-vars": "warn",
+    "quotes": [2, "single"],
+    "semi": ["warn", "always"],
+    "no-console": ["warn", {"allow": ["log", "warn", "error"]}],
+    "no-trailing-spaces": "error"
+  }
+}
